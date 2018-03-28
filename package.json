@@ -1,0 +1,24 @@
+{
+  "name": "ride-sharing-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puchk/ride-sharing-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puchk/ride-sharing-api/issues"
+  },
+  "homepage": "https://github.com/puchk/ride-sharing-api#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mocha": "^5.0.5",
+    "mongoose": "^5.0.12"
+  }
+}

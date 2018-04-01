@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/puchk/ride-sharing-api#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "mocha": "^5.0.5",
     "mongoose": "^5.0.12",

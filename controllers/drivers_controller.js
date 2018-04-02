@@ -1,3 +1,5 @@
+const Driver = require('../models/driver');
+
 module.exports = {
 	// same thing as greeting: function(req, res) {}
 	greeting(req, res) {

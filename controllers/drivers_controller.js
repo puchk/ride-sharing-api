@@ -10,5 +10,12 @@ module.exports = {
 		Driver.create(req.body)
 			.then(driver => res.send(driver))
 			.catch(next);
+	},
+
+	edit(req, res, next) {
+		Driver.findByIdAndUpdate({ _id: req.params.id }, req.body)
+			.then(() => Driver.findById({ _id: req.params.id }))
+			.then(driver => res.send(driver))
+			.catch(next);
 	}
 };
